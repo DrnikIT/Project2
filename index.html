@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Моя веб-страница :) </h1>
+<p>Второй параграф</p>
+
+<p id="demo"></p>
+
+<script>
+ document.getElementById("demo").innerHTML = 5 + 16;
+</script>
+
+</body>
+</html> 
+
+
+<html>
+<body>
+    <h1>Считаем кроликов</h1>
+
+    <script type="text/javascript">
+        for(var i=1; i<=3; i++) {
+            alert("Из шляпы достали "+i+" кролика!")
+        }
+    </script>
+    <h1>...Посчитали</h1>
+</body>
+</html>
+
+
+<html>
+
+    <head>
+        <script type="text/javascript">
+            function count_rabbits() {
+                for(var i=1; i<=3; i++) {
+                   // оператор + соединяет строки
+                   alert("Из шляпы достали "+i+" кролика!")
+                }
+            }
+         </script>
+    </head>
+
+    <body>
+         <input type="button" onclick="count_rabbits()" value="Считать кролей!"/>
+    </body>
+
+</html>
+
